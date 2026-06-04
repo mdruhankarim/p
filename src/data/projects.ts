@@ -39,5 +39,14 @@ export const projects: Project[] = [
     link: 'https://www.udemy.com/user/mdruhankarim',
     imageAlt: 'Python Code on Screen',
     imageDesc: 'A macro shot of lines of Python code glowing on a dark computer monitor, emphasizing the technical neo-noir aesthetic with vibrant cyan and deep violet hues against a pure black background. Cinematic lighting.'
+  },
+  {
+    id: 'notehand',
+    title: 'NoteHand',
+    description: 'A premium browser-based digital sketchbook built for students, developers, and designers. Combines freehand drawing, handwriting-style notes, shape tools, and multi-page notebook management — all running offline with zero accounts.',
+    stack: ['React', 'TypeScript', 'Tailwind CSS', 'HTML5 Canvas', 'Framer Motion', 'PWA'],
+    demoUrl: 'https://notehand.netlify.app',
+    imageAlt: 'NoteHand Workspace',
+    imageDesc: 'A premium design mockup of a digital whiteboard and sketchbook application in dark mode with neon cyan and deep violet highlights.'
   }
 ];

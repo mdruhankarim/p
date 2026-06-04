@@ -58,6 +58,8 @@ export default function Projects() {
                         ? 'https://lh3.googleusercontent.com/aida-public/AB6AXuCZoINmq7wX_XNObnZPvqyDV8MERpcohZL1N-5MkRxFN1m1AXEpWwvubV8XLh5n3MNZgeamPFLdMCIWBJcOcbb4psyNwyXwPPE4lBtREWPTTE9J455GGYkGJXrMO-RRe2bXDFT7T43DjhvbpAcr0uO0PzsWzFDNPcHYmO1gknIxuLxHEiZd98w2OIMh_xYJm1eMgTZB_WtIbkF-q2yWTM2EkXJo_8IbbHfPC-CnFKK9pCk0vgFL1r6qZt2pkXhOJWWrcOfMbljvSBnl'
                         : project.id === 'dsa-tracker'
                         ? 'https://lh3.googleusercontent.com/aida-public/AB6AXuDvf1ASK6nb7DfKtI1A6te2cdGVk-kQzAAOV80eiDY4Bhwea-agB-_nKgbLKEVsrm8KrLYXOmNcaj950OY1bgaN3vnrHrdxMuaFIY48Cl8opjt63KYTrJ-uHdNrnqW-f94M8G_o-F8acXVXOswOtvhcqhAFPtLfDSsCLbQShVROKbQ395pVIXsUGuKIxAxQJg4GPzGI8_BC_TJAPhocaODAE1JCsr_C7meoNTxLqoLevWgzJM-Hb-NWkL72ibjoxYAFRZopoI_rC553'
+                        : project.id === 'notehand'
+                        ? '/notehand.png'
                         : 'https://lh3.googleusercontent.com/aida-public/AB6AXuC5mxx1WIQNu-DDhcbgilSEY8MCMuFvdjR0apF9qyywrClul2zAt8vK83sGDK6qnG2lepTu6pS18Ps4rHaZUM8DOKLtSuQ7zlhCNH5CAR9YUClDX4XQ8TdVfE8vXlx2YXhZ4vU9n41ISatnJ38d3VO4h5C-pGsKiOZEMQnyTxlvOh3Z8GxNdZ_xY9Tx_u4R2Apw5_aPUpZT5gqstk3TbCP9B49t-QN7GPFwAjdD046i7GB2cOrn3zT3vw0GEVionAdAyF6vOHquJMx_'
                     }
                   />
