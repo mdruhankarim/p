@@ -61,6 +61,28 @@ function PortfolioMain() {
     return () => window.removeEventListener('mouseover', handleMouseOver);
   }, []);
 
+  // Scroll to hash on load/reload
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const id = hash.replace('#', '').replace('/', '');
+      if (id) {
+        setTimeout(() => {
+          const element = document.getElementById(id);
+          if (element) {
+            const navOffset = 80;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.scrollY - navOffset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: 'smooth',
+            });
+          }
+        }, 300);
+      }
+    }
+  }, []);
+
   return (
     <div className="relative text-on-surface antialiased overflow-x-hidden min-h-screen">
       {/* Noise background overlay */}
@@ -92,7 +114,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<PortfolioMain />} />
+        <Route path="*" element={<PortfolioMain />} />
       </Routes>
     </Router>
   );
