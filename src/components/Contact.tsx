@@ -25,7 +25,7 @@ export default function Contact() {
         {/* Action Button */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 w-full max-w-xs sm:max-w-none mx-auto">
           <a
-            href="mailto:ruhan.dev@gmail.com"
+            href="mailto:ruhan@duck.com"
             className="w-full sm:w-auto px-8 py-4 bg-primary text-on-primary font-sans text-button-text rounded hover:shadow-[0_0_30px_rgba(70,241,197,0.5)] transition-all duration-300 active:scale-95 interactive flex items-center justify-center gap-2 font-semibold"
           >
             <Mail size={18} /> Say Hello
@@ -35,7 +35,7 @@ export default function Contact() {
         {/* Social Links */}
         <div className="mt-20 flex justify-center gap-8">
           <a
-            href="https://github.com/ruhan-dev"
+            href="https://github.com/mdruhankarim"
             target="_blank"
             rel="noopener noreferrer"
             className="text-on-surface-variant hover:text-primary transition-colors duration-300 interactive p-2 rounded-full border border-white/5 bg-surface-container/50 hover:border-primary/30"
@@ -44,7 +44,7 @@ export default function Contact() {
             <GithubIcon size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/ruhan-dev"
+            href="https://linkedin.com/in/mdruhankarim"
             target="_blank"
             rel="noopener noreferrer"
             className="text-on-surface-variant hover:text-secondary transition-colors duration-300 interactive p-2 rounded-full border border-white/5 bg-surface-container/50 hover:border-secondary/30"

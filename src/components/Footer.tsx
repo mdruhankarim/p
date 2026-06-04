@@ -31,7 +31,7 @@ export default function Footer() {
         </a>
         <div className="flex gap-6">
           <a
-            href="https://github.com/ruhan-dev"
+            href="https://github.com/mdruhankarim"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-on-surface-variant hover:text-primary transition-colors duration-300"
@@ -39,7 +39,7 @@ export default function Footer() {
             Github
           </a>
           <a
-            href="https://linkedin.com/in/ruhan-dev"
+            href="https://linkedin.com/in/mdruhankarim"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-on-surface-variant hover:text-primary transition-colors duration-300"
@@ -47,14 +47,14 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="mailto:hello@ruhan.dev"
+            href="mailto:ruhan@duck.com"
             className="text-sm text-on-surface-variant hover:text-primary transition-colors duration-300"
           >
             Email
           </a>
         </div>
         <p className="text-xs text-on-surface-variant opacity-50">
-          © 2024 RUHAN. Built with technical precision.
+          © 2026 RUHAN. Built with technical precision.
         </p>
       </div>
     </footer>

@@ -23,7 +23,7 @@ export default function Projects() {
             <h2 className="font-display text-3xl md:text-5xl text-on-surface font-extrabold tracking-tight">Projects</h2>
           </div>
           <a
-            href="https://github.com/ruhan-dev"
+            href="https://github.com/mdruhankarim"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 font-sans text-sm text-on-surface-variant hover:text-primary transition-colors duration-300 interactive font-semibold"

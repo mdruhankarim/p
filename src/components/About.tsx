@@ -29,7 +29,7 @@ export default function About() {
             <img
               alt="Ruhan Portrait"
               className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500 scale-105"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQhziDm404aitN9Z18CY9mfOzjqvKHrukQ9Q3_MAnn0iOZ0RSZwLbGqmntWH35pwD7xRTBI16MhoMbpYY9uL8Ta1YRvl3s6bv1svfjIaN8r7fMqZxrgUaRCPqi8ZMBrI7FqHgM2N-H1HDR1NIa4llwwjPvSwUKpyDIWxaK0TWAlxUr4BQd9pGSJ94qq6nbwAXmF6MAd7_UFOZkllg_NNfdE0dfcxpIUTAothSoYaQYLVx71dw0lKOrY7Q3s_X_cKX813yhs37U2l8J"
+              src="https://i.ibb.co.com/JFtYm6ks/photo-2026-06-04-06-17-09.jpg"
             />
           </div>
 
