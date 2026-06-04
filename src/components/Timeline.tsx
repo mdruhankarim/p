@@ -11,7 +11,7 @@ const timelineData: TimelineItem[] = [
   {
     role: 'B.S. Computer Science',
     institution: 'Satbayev University',
-    duration: '2023 — Present',
+    duration: '2024 — Present',
     description:
       'Focusing on algorithms, data structures, and system architecture. Active member of the competitive programming team and lead developer for student engineering projects.',
   },
