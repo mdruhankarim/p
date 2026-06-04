@@ -23,12 +23,12 @@ export default function About() {
           
           {/* Avatar Container */}
           <div className="w-32 h-32 rounded-full overflow-hidden border-2 border-primary/30 mb-8 relative group">
-            <div className="absolute inset-0 bg-primary/20 backdrop-blur-sm z-10 flex items-center justify-center opacity-100 group-hover:opacity-0 transition-opacity duration-500">
+            <div className="absolute inset-0 bg-primary/20 backdrop-blur-sm z-10 flex items-center justify-center opacity-100 group-hover:opacity-0 transition-opacity duration-500 rounded-full">
               <Terminal size={32} className="text-primary" />
             </div>
             <img
               alt="Ruhan Portrait"
-              className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500 scale-105"
+              className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500 scale-105 rounded-full"
               src="https://i.ibb.co.com/JFtYm6ks/photo-2026-06-04-06-17-09.jpg"
             />
           </div>
